@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+
+
+InputThe only line of input contains three integers a1, a2, a3 (1 ≤ a1, a2, a3 ≤ 20), separated by spaces.
+
+OutputOutput a single integer.

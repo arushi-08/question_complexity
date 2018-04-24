@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Sorting arrays is traditionally associated with high-level languages. How hard can it be in FALSE? Sort the given array in non-descending order.
+
+InputThe input consists of a single line of space-separated integers. The first number is n (1 ≤ n ≤ 10) — the size of the array. The following n numbers are the elements of the array (1 ≤ ai ≤ 100).
+
+OutputOutput space-separated elements of the sorted array.

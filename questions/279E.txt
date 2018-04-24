@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Valera considers a number beautiful, if it equals 2k or -2k for some integer k (k ≥ 0). Recently, the math teacher asked Valera to represent number n as the sum of beautiful numbers. As Valera is really greedy, he wants to complete the task using as few beautiful numbers as possible. Help Valera and find, how many numbers he is going to need. In other words, if you look at all decompositions of the number n into beautiful summands, you need to find the size of the decomposition which has the fewest summands.
+
+InputThe first line contains string s (1 ≤ |s| ≤ 106), that is the binary representation of number n without leading zeroes (n > 0).
+
+OutputPrint a single integer — the minimum amount of beautiful numbers that give a total of n.

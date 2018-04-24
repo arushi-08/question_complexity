@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test64 megabytes
+
+You are given integers a, b and c. Calculate ab modulo c.
+
+InputInput data contains numbers a, b and c, one number per line. Each number is an integer between 1 and 100, inclusive.
+
+OutputOutput ab mod c.

@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+You are given a mysterious language (codenamed "Secret") available in "Custom Invocation" tab. Figure out what this language is and write a program which prints its name. Note that the program must be written in this language.
+
+InputThis program has only one test (your program doesn't have to read anything).
+
+OutputOutput the name of the mysterious language. Note that the name is case-sensitive and might contain digits and special characters.

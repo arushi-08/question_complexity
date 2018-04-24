@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+You are given a string s, consisting of small Latin letters. Let's denote the length of the string as |s|. The characters in the string are numbered starting from 1. Your task is to find out if it is possible to rearrange characters in string s so that for any prime number p ≤ |s| and for any integer i ranging from 1 to |s| / p (inclusive) the following condition was fulfilled sp = sp × i. If the answer is positive, find one way to rearrange the characters.
+
+InputThe only line contains the initial string s, consisting of small Latin letters (1 ≤ |s| ≤ 1000).
+
+OutputIf it is possible to rearrange the characters in the string so that the above-mentioned conditions were fulfilled, then print in the first line "YES" (without the quotes) and print on the second line one of the possible resulting strings. If such permutation is impossible to perform, then print the single string "NO".

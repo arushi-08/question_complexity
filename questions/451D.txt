@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+We call a string good, if after merging all the consecutive equal characters, the resulting string is palindrome. For example, "aabba" is good, because after the merging step it will become "aba".Given a string, you have to find two values:  the number of good substrings of even length;  the number of good substrings of odd length. 
+
+InputThe first line of the input contains a single string of length n (1 ≤ n ≤ 105). Each character of the string will be either 'a' or 'b'.
+
+OutputPrint two space-separated integers: the number of good substrings of even length and the number of good substrings of odd length.

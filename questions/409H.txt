@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+A + B is often used as an example of the easiest problem possible to show some contest platform. However, some scientists have observed that sometimes this problem is not so easy to get accepted. Want to try?
+
+InputThe input contains two integers a and b (0 ≤ a, b ≤ 103), separated by a single space.
+
+OutputOutput the sum of the given integers.

@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Some days ago, I learned the concept of LCM (least common multiple). I've played with it for several times and I want to make a big number with it.But I also don't want to use many numbers, so I'll choose three positive integers (they don't have to be distinct) which are not greater than n. Can you help me to find the maximum possible least common multiple of these three integers?
+
+InputThe first line contains an integer n (1 ≤ n ≤ 106) — the n mentioned in the statement.
+
+OutputPrint a single integer — the maximum possible LCM of three not necessarily distinct positive integers that are not greater than n.

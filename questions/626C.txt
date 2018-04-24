@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Students in a class are making towers of blocks. Each student makes a (non-zero) tower by stacking pieces lengthwise on top of each other. n of the students use pieces made of two blocks and m of the students use pieces made of three blocks.The students don’t want to use too many blocks, but they also want to be unique, so no two students’ towers may contain the same number of blocks. Find the minimum height necessary for the tallest of the students' towers.
+
+InputThe first line of the input contains two space-separated integers n and m (0 ≤ n, m ≤ 1 000 000, n + m > 0) — the number of students using two-block pieces and the number of students using three-block pieces, respectively.
+
+OutputPrint a single integer, denoting the minimum possible height of the tallest tower.

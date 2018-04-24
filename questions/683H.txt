@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+n pupils, who love to read books, study at school. It is known that each student has exactly one best friend, and each pupil is the best friend of exactly one other pupil. Each of the pupils has exactly one interesting book.The pupils decided to share books with each other. Every day, all pupils give their own books to their best friends. Thus, every day each of the pupils has exactly one book.Your task is to use the list of the best friends and determine the exchange of books among pupils after k days. For simplicity, all students are numbered from 1 to n in all tests.
+
+InputThe first line contains two integers n and k (2 ≤ n ≤ 100000, 1 ≤ k ≤ 1016) — the number of pupils and days during which they will exchange books.The second line contains n different integers ai (1 ≤ ai ≤ n), where ai is equal to the number of the pupil who has the best friend with the number i.It is guaranteed that no pupil is the best friend of himself.
+
+OutputIn a single line print n different integers, where i-th integer should be equal to the number of the pupil who will have the book, which the pupil with the number i had in the beginning, after k days.

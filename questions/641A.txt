@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Little Artem found a grasshopper. He brought it to his house and constructed a jumping area for him.The area looks like a strip of cells 1 × n. Each cell contains the direction for the next jump and the length of that jump. Grasshopper starts in the first cell and follows the instructions written on the cells. Grasshopper stops immediately if it jumps out of the strip. Now Artem wants to find out if this will ever happen.
+
+InputThe first line of the input contains a single integer n (1 ≤ n ≤ 100 000) — length of the strip. Next line contains a string of length n which consists of characters "<" and ">" only, that provide the direction of the jump from the corresponding cell. Next line contains n integers di (1 ≤ di ≤ 109) — the length of the jump from the i-th cell.
+
+OutputPrint "INFINITE" (without quotes) if grasshopper will continue his jumps forever. Otherwise print "FINITE" (without quotes).

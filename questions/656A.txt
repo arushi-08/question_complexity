@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test64 megabytes
+
+
+
+InputThe input contains a single integer a (0 ≤ a ≤ 35).
+
+OutputOutput a single integer.

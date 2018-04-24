@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Bear Limak likes watching sports on TV. He is going to watch a game today. The game lasts 90 minutes and there are no breaks.Each minute can be either interesting or boring. If 15 consecutive minutes are boring then Limak immediately turns TV off.You know that there will be n interesting minutes t1, t2, ..., tn. Your task is to calculate for how many minutes Limak will watch the game.
+
+InputThe first line of the input contains one integer n (1 ≤ n ≤ 90) — the number of interesting minutes.The second line contains n integers t1, t2, ..., tn (1 ≤ t1 < t2 < ... tn ≤ 90), given in the increasing order.
+
+OutputPrint the number of minutes Limak will watch the game.

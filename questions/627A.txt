@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Two positive integers a and b have a sum of s and a bitwise XOR of x. How many possible values are there for the ordered pair (a, b)?
+
+InputThe first line of the input contains two integers s and x (2 ≤ s ≤ 1012, 0 ≤ x ≤ 1012), the sum and bitwise xor of the pair of positive integers, respectively.
+
+OutputPrint a single integer, the number of solutions to the given conditions. If no solutions exist, print 0.

@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Let's consider equation:x2 + s(x)·x - n = 0,  where x, n are positive integers, s(x) is the function, equal to the sum of digits of number x in the decimal number system.You are given an integer n, find the smallest positive integer root of equation x, or else determine that there are no such roots.
+
+InputA single line contains integer n (1 ≤ n ≤ 1018) — the equation parameter.Please, do not use the %lld specifier to read or write 64-bit integers in С++. It is preferred to use cin, cout streams or the %I64d specifier. 
+
+OutputPrint -1, if the equation doesn't have integer positive roots. Otherwise print such smallest integer x (x > 0), that the equation given in the statement holds.

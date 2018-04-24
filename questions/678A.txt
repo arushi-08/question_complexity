@@ -1,0 +1,9 @@
+time limit per test0.5 seconds
+
+memory limit per test256 megabytes
+
+Johny likes numbers n and k very much. Now Johny wants to find the smallest integer x greater than n, so it is divisible by the number k.
+
+InputThe only line contains two integers n and k (1 ≤ n, k ≤ 109).
+
+OutputPrint the smallest integer x > n, so it is divisible by the number k.

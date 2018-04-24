@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Least common multiple (LCM) of two numbers is the smallest positive integer which is divisible by both of them. You are given integers a and b. Calculate their LCM.
+
+InputThe input contains two integers a and b (1 ≤ a, b ≤ 103), separated by a single space.
+
+OutputOutput LCM(a, b).

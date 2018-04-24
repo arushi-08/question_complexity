@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+The famous joke programming language HQ9+ has only 4 commands. In this problem we will explore its subset — a language called HQ...
+
+InputThe only line of the input is a string between 1 and 106 characters long.
+
+OutputOutput "Yes" or "No".

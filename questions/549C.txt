@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+There are n cities in Westeros. The i-th city is inhabited by ai people. Daenerys and Stannis play the following game: in one single move, a player chooses a certain town and burns it to the ground. Thus all its residents, sadly, die. Stannis starts the game. The game ends when Westeros has exactly k cities left.The prophecy says that if the total number of surviving residents is even, then Daenerys wins: Stannis gets beheaded, and Daenerys rises on the Iron Throne. If the total number of surviving residents is odd, Stannis wins and everything goes in the completely opposite way.Lord Petyr Baelish wants to know which candidates to the throne he should support, and therefore he wonders, which one of them has a winning strategy. Answer to this question of Lord Baelish and maybe you will become the next Lord of Harrenholl.
+
+InputThe first line contains two positive space-separated integers, n and k (1 ≤ k ≤ n ≤ 2·105) — the initial number of cities in Westeros and the number of cities at which the game ends. The second line contains n space-separated positive integers ai (1 ≤ ai ≤ 106), which represent the population of each city in Westeros.
+
+OutputPrint string "Daenerys" (without the quotes), if Daenerys wins and "Stannis" (without the quotes), if Stannis wins.

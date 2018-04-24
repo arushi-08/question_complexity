@@ -1,0 +1,9 @@
+time limit per test5 seconds
+
+memory limit per test768 megabytes
+
+You are given a weighted undirected graph on n vertices and m edges. Find the shortest path from vertex s to vertex t or else state that such path doesn't exist.
+
+InputThe first line of the input contains two space-separated integers — n and m (1 ≤ n ≤ 105; 0 ≤ m ≤ 105).Next m lines contain the description of the graph edges. The i-th line contains three space-separated integers — ui, vi, xi (1 ≤ ui, vi ≤ n; 0 ≤ xi ≤ 105). That means that vertices with numbers ui and vi are connected by edge of length 2xi (2 to the power of xi).The last line contains two space-separated integers — the numbers of vertices s and t.The vertices are numbered from 1 to n. The graph contains no multiple edges and self-loops.
+
+OutputIn the first line print the remainder after dividing the length of the shortest path by 1000000007 (109 + 7) if the path exists, and -1 if the path doesn't exist.If the path exists print in the second line integer k — the number of vertices in the shortest path from vertex s to vertex t; in the third line print k space-separated integers — the vertices of the shortest path in the visiting order. The first vertex should be vertex s, the last vertex should be vertex t. If there are multiple shortest paths, print any of them.

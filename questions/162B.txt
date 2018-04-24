@@ -1,0 +1,9 @@
+time limit per test3 seconds
+
+memory limit per test256 megabytes
+
+You are given a positive integer n. Output its binary notation.
+
+InputThe only line of input data contains an integer n (1 ≤ n ≤ 106).
+
+OutputOutput the binary notation of n (without any leading zeros).

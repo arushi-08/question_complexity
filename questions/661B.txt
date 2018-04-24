@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test64 megabytes
+
+You are given a name of a month. Output the season of the year to which it belongs (based on Northern hemisphere).
+
+InputThe input consists of a single string containing the name of one of the twelve months (January, February, March, April, May, June, July, August, September, October, November or December). The string is capitalized as given here.
+
+OutputOutput a single string — the season of the year to which the given month belongs (winter, spring, summer or autumn). The name of the season should be in lowercase.

@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Vasya takes part in the orienteering competition. There are n checkpoints located along the line at coordinates x1, x2, ..., xn. Vasya starts at the point with coordinate a. His goal is to visit at least n - 1 checkpoint in order to finish the competition. Participant are allowed to visit checkpoints in arbitrary order.Vasya wants to pick such checkpoints and the order of visiting them that the total distance travelled is minimized. He asks you to calculate this minimum possible value.
+
+InputThe first line of the input contains two integers n and a (1 ≤ n ≤ 100 000,  - 1 000 000 ≤ a ≤ 1 000 000) — the number of checkpoints and Vasya's starting position respectively.The second line contains n integers x1, x2, ..., xn ( - 1 000 000 ≤ xi ≤ 1 000 000) — coordinates of the checkpoints.
+
+OutputPrint one integer — the minimum distance Vasya has to travel in order to visit at least n - 1 checkpoint.

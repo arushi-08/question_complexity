@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Vanya has a scales for weighing loads and weights of masses w0, w1, w2, ..., w100 grams where w is some integer not less than 2 (exactly one weight of each nominal value). Vanya wonders whether he can weight an item with mass m using the given weights, if the weights can be put on both pans of the scales. Formally speaking, your task is to determine whether it is possible to place an item of mass m and some weights on the left pan of the scales, and some weights on the right pan of the scales so that the pans of the scales were in balance.
+
+InputThe first line contains two integers w, m (2 ≤ w ≤ 109, 1 ≤ m ≤ 109) — the number defining the masses of the weights and the mass of the item.
+
+OutputPrint word 'YES' if the item can be weighted and 'NO' if it cannot.

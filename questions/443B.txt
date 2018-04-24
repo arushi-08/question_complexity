@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Kolya got string s for his birthday, the string consists of small English letters. He immediately added k more characters to the right of the string.Then Borya came and said that the new string contained a tandem repeat of length l as a substring. How large could l be?See notes for definition of a tandem repeat.
+
+InputThe first line contains s (1 ≤ |s| ≤ 200). This string contains only small English letters. The second line contains number k (1 ≤ k ≤ 200) — the number of the added characters.
+
+OutputPrint a single number — the maximum length of the tandem repeat that could have occurred in the new string.

@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+This problem is the most boring one you've ever seen. Given a sequence of integers a1, a2, ..., an and a non-negative integer h, our goal is to partition the sequence into two subsequences (not necessarily consist of continuous elements). Each element of the original sequence should be contained in exactly one of the result subsequences. Note, that one of the result subsequences can be empty.Let's define function f(ai, aj) on pairs of distinct elements (that is i ≠ j) in the original sequence. If ai and aj are in the same subsequence in the current partition then f(ai, aj) = ai + aj otherwise f(ai, aj) = ai + aj + h. Consider all possible values of the function f for some partition. We'll call the goodness of this partiotion the difference between the maximum value of function f and the minimum value of function f.Your task is to find a partition of the given sequence a that have the minimal possible goodness among all possible partitions.
+
+InputThe first line of input contains integers n and h (2 ≤ n ≤ 105, 0 ≤ h ≤ 108). In the second line there is a list of n space-separated integers representing a1, a2, ..., an (0 ≤ ai ≤ 108).
+
+OutputThe first line of output should contain the required minimum goodness. The second line describes the optimal partition. You should print n whitespace-separated integers in the second line. The i-th integer is 1 if ai is in the first subsequence otherwise it should be 2.If there are several possible correct answers you are allowed to print any of them.

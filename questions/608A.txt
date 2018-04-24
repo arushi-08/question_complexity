@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Saitama accidentally destroyed a hotel again. To repay the hotel company, Genos has volunteered to operate an elevator in one of its other hotels. The elevator is special — it starts on the top floor, can only move down, and has infinite capacity. Floors are numbered from 0 to s and elevator initially starts on floor s at time 0.The elevator takes exactly 1 second to move down exactly 1 floor and negligible time to pick up passengers. Genos is given a list detailing when and on which floor passengers arrive. Please determine how long in seconds it will take Genos to bring all passengers to floor 0.
+
+InputThe first line of input contains two integers n and s (1 ≤ n ≤ 100, 1 ≤ s ≤ 1000) — the number of passengers and the number of the top floor respectively.The next n lines each contain two space-separated integers fi and ti (1 ≤ fi ≤ s, 1 ≤ ti ≤ 1000) — the floor and the time of arrival in seconds for the passenger number i.
+
+OutputPrint a single integer — the minimum amount of time in seconds needed to bring all the passengers to floor 0.

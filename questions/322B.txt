@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Fox Ciel has some flowers: r red flowers, g green flowers and b blue flowers. She wants to use these flowers to make several bouquets. There are 4 types of bouquets:  To make a "red bouquet", it needs 3 red flowers.  To make a "green bouquet", it needs 3 green flowers.  To make a "blue bouquet", it needs 3 blue flowers.  To make a "mixing bouquet", it needs 1 red, 1 green and 1 blue flower. Help Fox Ciel to find the maximal number of bouquets she can make.
+
+InputThe first line contains three integers r, g and b (0 ≤ r, g, b ≤ 109) — the number of red, green and blue flowers.
+
+OutputPrint the maximal number of bouquets Fox Ciel can make.

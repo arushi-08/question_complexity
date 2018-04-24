@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+A car number in Berland consists of exactly n digits. A number is called beautiful if it has at least k equal digits. Vasya wants to change the digits in his car's number so that the number became beautiful. To replace one of n digits Vasya has to pay the sum of money, equal to the absolute difference between the old digit and the new one.Help Vasya: find the minimum sum of money he should pay to make the number of his car beautiful. You should also find the resulting beautiful number. If there are several such numbers, then print the lexicographically minimum one.
+
+InputThe first line contains two space-separated integers n and k (2 ≤ n ≤ 104, 2 ≤ k ≤ n) which represent how many digits the number has and how many equal digits a beautiful number should have. The second line consists of n digits. It describes the old number of Vasya's car. It is guaranteed that the number contains no spaces and only contains digits.
+
+OutputOn the first line print the minimum sum of money Vasya needs to change the number. On the second line print the car's new number. If there are several solutions, print the lexicographically minimum one.

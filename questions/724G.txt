@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+You are given an undirected graph, constisting of n vertices and m edges. Each edge of the graph has some non-negative integer written on it.Let's call a triple (u, v, s) interesting, if 1 ≤ u < v ≤ n and there is a path (possibly non-simple, i.e. it can visit the same vertices and edges multiple times) between vertices u and v such that xor of all numbers written on the edges of this path is equal to s. When we compute the value s for some path, each edge is counted in xor as many times, as it appear on this path. It's not hard to prove that there are finite number of such triples.Calculate the sum over modulo 109 + 7 of the values of s over all interesting triples.
+
+InputThe first line of the input contains two integers n and m (1 ≤ n ≤ 100 000, 0 ≤ m ≤ 200 000) — numbers of vertices and edges in the given graph.The follow m lines contain three integers ui, vi and ti (1 ≤ ui, vi ≤ n, 0 ≤ ti ≤ 1018, ui ≠ vi) — vertices connected by the edge and integer written on it. It is guaranteed that graph doesn't contain self-loops and multiple edges.
+
+OutputPrint the single integer, equal to the described sum over modulo 109 + 7.

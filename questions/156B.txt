@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+As Sherlock Holmes was investigating a crime, he identified n suspects. He knows for sure that exactly one of them committed the crime. To find out which one did it, the detective lines up the suspects and numbered them from 1 to n. After that, he asked each one: "Which one committed the crime?". Suspect number i answered either "The crime was committed by suspect number ai", or "Suspect number ai didn't commit the crime". Also, the suspect could say so about himself (ai = i).Sherlock Holmes understood for sure that exactly m answers were the truth and all other answers were a lie. Now help him understand this: which suspect lied and which one told the truth?
+
+InputThe first line contains two integers n and m (1 ≤ n ≤ 105, 0 ≤ m ≤ n) — the total number of suspects and the number of suspects who told the truth. Next n lines contain the suspects' answers. The i-th line contains either "+ai" (without the quotes), if the suspect number i says that the crime was committed by suspect number ai, or "-ai" (without the quotes), if the suspect number i says that the suspect number ai didn't commit the crime (ai is an integer, 1 ≤ ai ≤ n).It is guaranteed that at least one suspect exists, such that if he committed the crime, then exactly m people told the truth.
+
+OutputPrint n lines. Line number i should contain "Truth" if suspect number i has told the truth for sure. Print "Lie" if the suspect number i lied for sure and print "Not defined" if he could lie and could tell the truth, too, depending on who committed the crime.

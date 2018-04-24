@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+You are given a multiset of points on the plane with integer coordinates. Find the maximum distance between two points from this multiset.
+
+InputThe first line of input contains the number of points n (2 ≤ n ≤ 50). Next, n pairs of lines follow, each describing a single point: the first line contains x-coordinate, the second one — the y-coordinate ( - 50 ≤ x, y ≤ 50). Some of the points can have identical coordinates.
+
+OutputOutput the maximum distance between two points from this multiset. The answer is considered to be correct if its absolute or relative error does not exceed 10 - 4.

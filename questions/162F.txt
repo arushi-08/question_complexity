@@ -1,0 +1,9 @@
+time limit per test3 seconds
+
+memory limit per test256 megabytes
+
+You are given a positive integer n. Output the number of trailing zeros in n! (n! denotes a product of integers between 1 and n, inclusive).
+
+InputThe only line of input contains an integer n (1 ≤ n ≤ 1000000).
+
+OutputOutput the number of trailing zeros in n!.

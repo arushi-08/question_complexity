@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Valera is a coder. Recently he wrote a funny program. The pseudo code for this program is given below://input: integers x, k, pa = x;for(step = 1; step <= k; step = step + 1){    rnd = [random integer from 1 to 100];    if(rnd <= p)        a = a * 2;    else        a = a + 1;}s = 0;while(remainder after dividing a by 2 equals 0){    a = a / 2;    s = s + 1;}Now Valera wonders: given the values x, k and p, what is the expected value of the resulting number s?
+
+InputThe first line of the input contains three integers x, k, p (1 ≤ x ≤ 109; 1 ≤ k ≤ 200; 0 ≤ p ≤ 100).
+
+OutputPrint the required expected value. Your answer will be considered correct if the absolute or relative error doesn't exceed 10 - 6.

@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Find an n × n matrix with different numbers from 1 to n2, so the sum in each row, column and both main diagonals are odd.
+
+InputThe only line contains odd integer n (1 ≤ n ≤ 49).
+
+OutputPrint n lines with n integers. All the integers should be different and from 1 to n2. The sum in each row, column and both main diagonals should be odd.

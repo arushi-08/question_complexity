@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+You are given two integers A and B. Calculate their sum and output it without leading zeros.
+
+InputTwo lines of input data contain integers A and B (1 ≤ A, B ≤ 105).
+
+OutputOutput A + B without leading zeros.

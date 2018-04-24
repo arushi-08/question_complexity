@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different. You are given two strings; calculate the distance between them.
+
+InputThe input consists of two lines. Each line contains a string of characters 'A'-'Z' between 1 and 100 characters, inclusive. The strings have equal length.
+
+OutputOutput Hamming distance between the strings.

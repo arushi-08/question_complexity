@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Chessboard is a board of n × n squares arranged in two alternating colors (black and white). Top left square is white. You are given board size n. Output an image of a chessboard, with black and white squares marked with '#' and '.' characters, respectively.
+
+InputThe only line of input contains an integer n (1 ≤ n ≤ 9).
+
+OutputOutput an image of n × n chessboard.

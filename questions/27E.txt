@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Given the number n, find the smallest positive integer which has exactly n divisors. It is guaranteed that for the given n the answer will not exceed 1018.
+
+InputThe first line of the input contains integer n (1 ≤ n ≤ 1000).
+
+OutputOutput the smallest positive integer with exactly n divisors.

@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Furik loves writing all sorts of problems, especially such that he can't solve himself. You've got one of his problems, the one Furik gave to Rubik. And Rubik asks you to solve it.There is integer n and array a, consisting of ten integers, indexed by numbers from 0 to 9. Your task is to count the number of positive integers with the following properties:  the number's length does not exceed n;  the number doesn't have leading zeroes;  digit i (0 ≤ i ≤ 9) occurs in the number at least a[i] times. 
+
+InputThe first line contains integer n (1 ≤ n ≤ 100). The next line contains 10 integers a[0], a[1], ..., a[9] (0 ≤ a[i] ≤ 100) — elements of array a. The numbers are separated by spaces.
+
+OutputOn a single line print the remainder of dividing the answer to the problem by 1000000007 (109 + 7).

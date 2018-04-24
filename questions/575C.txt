@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test4 megabytes
+
+Note the unusual memory limit for the problem.People working in MDCS (Microsoft Development Center Serbia) like partying. They usually go to night clubs on Friday and Saturday.There are N people working in MDCS and there are N clubs in the city. Unfortunately, if there is more than one Microsoft employee in night club, level of coolness goes infinitely high and party is over, so club owners will never let more than one Microsoft employee enter their club in the same week (just to be sure).You are organizing night life for Microsoft employees and you have statistics about how much every employee likes Friday and Saturday parties for all clubs.You need to match people with clubs maximizing overall sum of their happiness (they are happy as much as they like the club), while half of people should go clubbing on Friday and the other half on Saturday.
+
+InputThe first line contains integer N — number of employees in MDCS.Then an N × N matrix follows, where element in i-th row and j-th column is an integer number that represents how much i-th person likes j-th club’s Friday party.Then another N × N matrix follows, where element in i-th row and j-th column is an integer number that represents how much i-th person likes j-th club’s Saturday party.  2 ≤ N ≤ 20  N is even  0 ≤  level of likeness  ≤ 106  All values are integers 
+
+OutputOutput should contain a single integer — maximum sum of happiness possible.

@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+On Children's Day, the child got a toy from Delayyy as a present. However, the child is so naughty that he can't wait to destroy the toy.The toy consists of n parts and m ropes. Each rope links two parts, but every pair of parts is linked by at most one rope. To split the toy, the child must remove all its parts. The child can remove a single part at a time, and each remove consume an energy. Let's define an energy value of part i as vi. The child spend vf1 + vf2 + ... + vfk energy for removing part i where f1, f2, ..., fk are the parts that are directly connected to the i-th and haven't been removed.Help the child to find out, what is the minimum total energy he should spend to remove all n parts.
+
+InputThe first line contains two integers n and m (1 ≤ n ≤ 1000; 0 ≤ m ≤ 2000). The second line contains n integers: v1, v2, ..., vn (0 ≤ vi ≤ 105). Then followed m lines, each line contains two integers xi and yi, representing a rope from part xi to part yi (1 ≤ xi, yi ≤ n; xi ≠ yi).Consider all the parts are numbered from 1 to n.
+
+OutputOutput the minimum total energy the child should spend to remove all n parts of the toy.

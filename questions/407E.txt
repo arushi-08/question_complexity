@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+We'll call a sequence of integers a good k-d sequence if we can add to it at most k numbers in such a way that after the sorting the sequence will be an arithmetic progression with difference d.You got hold of some sequence a, consisting of n integers. Your task is to find its longest contiguous subsegment, such that it is a good k-d sequence.
+
+InputThe first line contains three space-separated integers n, k, d (1 ≤ n ≤ 2·105; 0 ≤ k ≤ 2·105; 0 ≤ d ≤ 109). The second line contains n space-separated integers: a1, a2, ..., an ( - 109 ≤ ai ≤ 109) — the actual sequence.
+
+OutputPrint two space-separated integers l, r (1 ≤ l ≤ r ≤ n) show that sequence al, al + 1, ..., ar is the longest subsegment that is a good k-d sequence.If there are multiple optimal answers, print the one with the minimum value of l.

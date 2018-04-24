@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Iahub likes trees very much. Recently he discovered an interesting tree named propagating tree. The tree consists of n nodes numbered from 1 to n, each node i having an initial value ai. The root of the tree is node 1.This tree has a special property: when a value val is added to a value of node i, the value -val is added to values of all the children of node i. Note that when you add value -val to a child of node i, you also add -(-val) to all children of the child of node i and so on. Look an example explanation to understand better how it works.This tree supports two types of queries:  "1 x val" — val is added to the value of node x;  "2 x" — print the current value of node x. In order to help Iahub understand the tree better, you must answer m queries of the preceding type.
+
+InputThe first line contains two integers n and m (1 ≤ n, m ≤ 200000). The second line contains n integers a1, a2, ..., an (1 ≤ ai ≤ 1000). Each of the next n–1 lines contains two integers vi and ui (1 ≤ vi, ui ≤ n), meaning that there is an edge between nodes vi and ui.Each of the next m lines contains a query in the format described above. It is guaranteed that the following constraints hold for all queries: 1 ≤ x ≤ n, 1 ≤ val ≤ 1000.
+
+OutputFor each query of type two (print the value of node x) you must print the answer to the query on a separate line. The queries must be answered in the order given in the input.

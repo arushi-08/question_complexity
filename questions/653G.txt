@@ -1,0 +1,9 @@
+time limit per test5 seconds
+
+memory limit per test256 megabytes
+
+Pussycat Sonya has an array consisting of n positive integers. There are 2n possible subsequences of the array. For each subsequence she counts the minimum number of operations to make all its elements equal. Each operation must be one of two:  Choose some element of the subsequence and multiply it by some prime number.  Choose some element of the subsequence and divide it by some prime number. The chosen element must be divisible by the chosen prime number. What is the sum of minimum number of operations for all 2n possible subsequences? Find and print this sum modulo 109 + 7.
+
+InputThe first line of the input contains a single integer n (1 ≤ n ≤ 300 000) — the size of the array.The second line contains n integers t1, t2, ..., tn (1 ≤ ti ≤ 300 000) — elements of the array.
+
+OutputPrint the sum of minimum number of operation for all possible subsequences of the given array modulo 109 + 7.

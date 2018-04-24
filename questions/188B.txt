@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+You are given numbers a and b. Calculate the sum of a and reverse of b. A reverse of a number is a number which contains the same digits in reverse order. For example, reverse of 230 is 32, and reverse of 0 is 0.
+
+InputThe input contains two integers a and b (0 ≤ a, b ≤ 109), separated by a single space. The numbers are given without leading zeros.
+
+OutputOutput the sum of a and reverse of b.

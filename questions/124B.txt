@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+You are given n k-digit integers. You have to rearrange the digits in the integers so that the difference between the largest and the smallest number was minimum. Digits should be rearranged by the same rule in all integers.
+
+InputThe first line contains integers n and k — the number and digit capacity of numbers correspondingly (1 ≤ n, k ≤ 8). Next n lines contain k-digit positive integers. Leading zeroes are allowed both in the initial integers and the integers resulting from the rearranging of digits.
+
+OutputPrint a single number: the minimally possible difference between the largest and the smallest number after the digits are rearranged in all integers by the same rule.

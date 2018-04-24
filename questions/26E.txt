@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+You are given the following concurrent program. There are N processes and the i-th process has the following pseudocode: repeat ni times    yi := y    y := yi + 1end repeatHere y is a shared variable. Everything else is local for the process. All actions on a given row are atomic, i.e. when the process starts executing a row it is never interrupted. Beyond that all interleavings are possible, i.e. every process that has yet work to do can be granted the rights to execute its next row. In the beginning y = 0. You will be given an integer W and ni, for i = 1, ... , N. Determine if it is possible that after all processes terminate, y = W, and if it is possible output an arbitrary schedule that will produce this final value.
+
+InputIn the first line of the input you will be given two space separated integers N (1 ≤ N ≤ 100) and W ( - 109 ≤ W ≤ 109). In the second line there are N space separated integers ni (1 ≤ ni ≤ 1000).
+
+OutputOn the first line of the output write Yes if it is possible that at the end y = W, or No otherwise. If the answer is No then there is no second line, but if the answer is Yes, then on the second line output a space separated list of integers representing some schedule that leads to the desired result. For more information see note.

@@ -1,0 +1,9 @@
+time limit per test3 seconds
+
+memory limit per test256 megabytes
+
+You are given n integers a1, a2, ..., an. Find the number of pairs of indexes i, j (i < j) that ai + aj is a power of 2 (i. e. some integer x exists so that ai + aj = 2x).
+
+InputThe first line contains the single positive integer n (1 ≤ n ≤ 105) — the number of integers.The second line contains n positive integers a1, a2, ..., an (1 ≤ ai ≤ 109).
+
+OutputPrint the number of pairs of indexes i, j (i < j) that ai + aj is a power of 2.

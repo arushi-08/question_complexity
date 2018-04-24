@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Flatland is inhabited by pixels of three colors: red, green and blue. We know that if two pixels of different colors meet in a violent fight, only one of them survives the fight (that is, the total number of pixels decreases by one). Besides, if pixels of colors x and y (x ≠ y) meet in a violent fight, then the pixel that survives the fight immediately changes its color to z (z ≠ x; z ≠ y). Pixels of the same color are friends, so they don't fight.The King of Flatland knows that his land will be peaceful and prosperous when the pixels are of the same color. For each of the three colors you know the number of pixels of this color that inhabit Flatland. Help the king and determine whether fights can bring peace and prosperity to the country and if it is possible, find the minimum number of fights needed to make the land peaceful and prosperous. 
+
+InputThe first line contains three space-separated integers a, b and c (0 ≤ a, b, c ≤ 231; a + b + c > 0) — the number of red, green and blue pixels, correspondingly.
+
+OutputPrint a single number — the minimum number of pixel fights before the country becomes peaceful and prosperous. If making the country peaceful and prosperous is impossible, print -1.

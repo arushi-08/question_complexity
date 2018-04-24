@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Petya is an unexperienced programming contestant. Recently he has come across the following problem:You are given a non-directed graph which consists of n nodes and m edges. Your task is to determine whether the graph contains a Hamiltonian path.Petya wrote a quick bug-free code which he believes solves this problem. After that Petya decided to give this problem for April Fools Day contest. Unfortunately, Petya might have made a mistake, and it's quite possible that his algorithm is wrong. But this isn't a good excuse to leave the contest without submitting this problem, is it?
+
+InputThe first line contains two integers n, m (1 ≤ n ≤ 20; 0 ≤ m ≤ 400). Next m lines contain pairs of integers vi, ui (1 ≤ vi, ui ≤ n).
+
+OutputFollow the format of Petya's code output.

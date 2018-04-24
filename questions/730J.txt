@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test512 megabytes
+
+Nick has n bottles of soda left after his birthday. Each bottle is described by two values: remaining amount of soda ai and bottle volume bi (ai ≤ bi).Nick has decided to pour all remaining soda into minimal number of bottles, moreover he has to do it as soon as possible. Nick spends x seconds to pour x units of soda from one bottle to another.Nick asks you to help him to determine k — the minimal number of bottles to store all remaining soda and t — the minimal time to pour soda into k bottles. A bottle can't store more soda than its volume. All remaining soda should be saved.
+
+InputThe first line contains positive integer n (1 ≤ n ≤ 100) — the number of bottles.The second line contains n positive integers a1, a2, ..., an (1 ≤ ai ≤ 100), where ai is the amount of soda remaining in the i-th bottle.The third line contains n positive integers b1, b2, ..., bn (1 ≤ bi ≤ 100), where bi is the volume of the i-th bottle.It is guaranteed that ai ≤ bi for any i.
+
+OutputThe only line should contain two integers k and t, where k is the minimal number of bottles that can store all the soda and t is the minimal time to pour the soda into k bottles.

@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+HAII HAS A TUXGIMMEH TUXI HAS A FOO ITS 0I HAS A BAR ITS 0I HAS A BAZ ITS 0I HAS A QUZ ITS 1TUX IS NOW A NUMBRIM IN YR LOOP NERFIN YR TUX TIL BOTH SAEM TUX AN 0I HAS A PURGIMMEH PURPUR IS NOW A NUMBRFOO R SUM OF FOO AN PURBAR R SUM OF BAR AN 1BOTH SAEM BIGGR OF PRODUKT OF FOO AN QUZ AN PRODUKT OF BAR BAZ AN PRODUKT OF FOO AN QUZO RLY?YA RLYBAZ R FOOQUZ R BAROICIM OUTTA YR LOOPBAZ IS NOW A NUMBARVISIBLE SMOOSH QUOSHUNT OF BAZ QUZKTHXBYE
+
+InputThe input contains between 1 and 10 lines, i-th line contains an integer number xi (0 ≤ xi ≤ 9).
+
+OutputOutput a single real number. The answer is considered to be correct if its absolute or relative error does not exceed 10 - 4.

@@ -1,0 +1,9 @@
+time limit per test3 seconds
+
+memory limit per test256 megabytes
+
+A truncatable prime is a prime number which contains no zeros in decimal notation and all its suffixes are primes. 1 is considered to be not a prime.You are given a positive integer n. Figure out whether it is a truncatable prime.
+
+InputThe only line of input contains an integer n (2 ≤ n ≤ 107).
+
+OutputOutput "YES" if n is a truncatable prime. Output "NO" otherwise. Quotes for clarity only.

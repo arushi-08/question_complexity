@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test256 megabytes
+
+Today, Wet Shark is given n integers. Using any of these integers no more than once, Wet Shark wants to get maximum possible even (divisible by 2) sum. Please, calculate this value for Wet Shark. Note, that if Wet Shark uses no integers from the n integers, the sum is an even integer 0.
+
+InputThe first line of the input contains one integer, n (1 ≤ n ≤ 100 000). The next line contains n space separated integers given to Wet Shark. Each of these integers is in range from 1 to 109, inclusive. 
+
+OutputPrint the maximum possible even sum that can be obtained if we use some of the given integers. 

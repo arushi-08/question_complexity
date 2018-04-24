@@ -1,0 +1,9 @@
+time limit per test2 seconds
+
+memory limit per test64 megabytes
+
+Positive integer number x is called prime, if it has exactly two positive integer divisors. For example, 2, 3, 17, 97 are primes, but 1, 10, 120 are not.You are given an integer number n, find the shortest segment [a, b], which contains n (i.e. a ≤ n ≤ b) and a, b are primes.
+
+InputThe only given line contains an integer number n (2 ≤ n ≤ 10000).
+
+OutputPrint the space separated pair of the required numbers a, b.

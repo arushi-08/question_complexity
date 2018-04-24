@@ -1,0 +1,9 @@
+time limit per test1 second
+
+memory limit per test256 megabytes
+
+Vasya likes everything infinite. Now he is studying the properties of a sequence s, such that its first element is equal to a (s1 = a), and the difference between any two neighbouring elements is equal to c (si - si - 1 = c). In particular, Vasya wonders if his favourite integer b appears in this sequence, that is, there exists a positive integer i, such that si = b. Of course, you are the person he asks for a help.
+
+InputThe first line of the input contain three integers a, b and c ( - 109 ≤ a, b, c ≤ 109) — the first element of the sequence, Vasya's favorite number and the difference between any two neighbouring elements of the sequence, respectively.
+
+OutputIf b appears in the sequence s print "YES" (without quotes), otherwise print "NO" (without quotes).
